@@ -54,7 +54,7 @@ input.on("focus", function (e) {
     }
 })
 
-$(document.body).on("click", function (e) {
+$(document).on("click", function (e) {
     
     if(e.target.type !== "text"){
     // 搜索框失去焦点 列表隐藏
